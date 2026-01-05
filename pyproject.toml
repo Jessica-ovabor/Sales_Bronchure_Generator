@@ -9,5 +9,6 @@ dependencies = [
     "ipykernel>=7.1.0",
     "jupyter>=1.1.1",
     "openai>=2.14.0",
+    "python-dotenv>=1.2.1",
     "streamlit>=1.52.2",
 ]
