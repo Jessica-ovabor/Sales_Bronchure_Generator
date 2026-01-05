@@ -29,7 +29,7 @@ This project demonstrates practical use of prompt engineering, API integration, 
 
 ## 🛠 Tech Stack
 
-* **Python 3.10+**
+* **Python 3.11.8**
 * **OpenAI API**
 * **uv** (package manager)
 * **python-dotenv**

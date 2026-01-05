@@ -1,7 +1,7 @@
 [project]
 name = "sales-bronchure-generator"
 version = "0.1.0"
-description = "Add your description here"
+description = "AI sales brochure generator"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
