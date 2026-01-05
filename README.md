@@ -1,7 +1,18 @@
 # 🧾 Sales Brochure Generator (OpenAI + Python)
 
 This project is a **Sales Brochure Generator** built with **Python** and **OpenAI**.
-It takes content (optionally scraped from a website), applies **one-shot prompting** and **system prompts**, and generates a polished sales brochure using an AI model.
+It takes content from a website, applies **one-shot prompting** and **system prompts**, and generates a polished sales brochure using an AI model.
+
+
+---
+
+## 📌 Project Description
+
+The **Sales Brochure Generator** is a Python-based application that leverages the **OpenAI API** to automatically create high-quality sales brochures from raw product or company information. Using **system prompts** and **one-shot prompting**, the tool ensures consistent tone, structure, and persuasive marketing language.
+
+The project extracts content from websites using **BeautifulSoup**, cleans and summarizes the data, and feeds it into an AI model to generate polished, ready-to-use brochure copy. Dependency management is handled with **uv**, and sensitive configuration is managed securely using **python-dotenv**.
+
+This project demonstrates practical use of prompt engineering, API integration, and text generation for real-world marketing automation.
 
 ---
 
