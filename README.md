@@ -55,7 +55,8 @@ pip install uv
 Create a `.env` file in the root directory:
 
 ```env
-OPENAI_API_KEY=your_openai_api_key_here
+OPENROUTER_API_KEY=openrouter_api_key
+OPENROUTER_BASE_URL=openrouter_base_url
 ```
 
 ⚠️ **Never commit your `.env` file to GitHub**
@@ -108,7 +109,7 @@ app
 
 ## 🛡 Notes
 
-* Ensure you have sufficient OpenAI API credits or OpenRouter API
+* Ensure you have sufficient OpenAI API credits or use OpenRouter API free open source model
 * Internet connection required
 * Use responsibly and follow OpenAI usage policies
 
