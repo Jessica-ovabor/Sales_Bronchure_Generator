@@ -1,4 +1,4 @@
-# 🧾 Sales Brochure Generator (OpenAI + Python)
+# 🧾 Sales Brochure Generator
 
 This project is a **Sales Brochure Generator** built with **Python** and **OpenAI**.
 It takes content from a website, applies **one-shot prompting** and **system prompts**, and generates a polished sales brochure using an AI model.
@@ -49,16 +49,16 @@ cd sales-brochure-generator
 
 ### 2️⃣ Install dependencies using `uv`
 
-```bash
-uv add openai python-dotenv beautifulsoup4 requests
-```
-
 > Make sure `uv` is installed:
 
 ```bash
 pip install uv
 ```
+> Install project dependencies:
 
+```bash
+uv sync
+```
 ---
 
 ## 🔑 Environment Setup
@@ -100,11 +100,9 @@ bronchure.ipynb
 
 ```text
 app
-├── app.py
-├── link_extractor.py
+├── extractor.py
 ├── bronchure.ipynb
-├── .env
-├── README.md
+
 ```
 
 ---
@@ -121,14 +119,14 @@ app
 ## 🛡 Notes
 
 * Ensure you have sufficient OpenAI API credits or use OpenRouter API free open source model
-* Internet connection required
-* Use responsibly and follow OpenAI usage policies
+* Adjust system and user prompts for different brochure styles
+* Test with various website contents for best results
 
 ---
 
 ## 📄 License
 
-This project is for **educational purposes**.
+This project are for my **LLM personal portfolio**.
 You are free to modify and expand it.
 
 ---
